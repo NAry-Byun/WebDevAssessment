@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <style>
+  .contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .form-group {
+    margin-bottom: 25px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  button {
+            background-color: grey;
+            color: white;
+            padding: 14px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: gray;
+        }
+  </style>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+   <script src="https://kit.fontawesome.com/2c827c8cca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+ <nav>
+  <div><a href="index.html"class="nav-item"><image src="https://raw.githubusercontent.com/NAry-Byun/WebDevAssessment/2414ec286cfe10ff8d6ce7097bb2ac9093006da7/vv_logo_victoria_bl_c.svg" width=132 > </div><div>
+   </a>
+    <a href="#"class="nav-item">Home</a>
+    <a href="#"class="nav-item">Contact Us</a>
+    <span>|</span>
+    <a href="#"class="nav-item">Sign up</a>
+    <a href="#"class="nav-item">Log in</a></div>
+</nav>
+<main>
+  <div class="main-container">  
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="submit_contact_form.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Subject:</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    
+  </div>
+</main>
+
+
+
+<footer>
+<div class="container">
+  <div class="footer-menu">
+    <div class="first-box">
+    <div><img src="https://raw.githubusercontent.com/NAry-Byun/WebDevAssessment/3d4f587e7372b26739f6224dc1db6b801b1f1aa0/image/vv_logo_victoria_bl_c.svg" width=132></div>
+      <div class="column">
+        <div class="sub-title">COMPANY</div>
+        <a href="#"class="footer-menu-item">About</a>
+        <a href="#"class="footer-menu-item">Jobs</a>
+        <a href="#"class="footer-menu-item">For the Record</a>
+      </div>
+      <div class="column">
+        <div class="sub-title">COMMUNITIES</div>
+        <a href="#"class="footer-menu-item">For Artists</a>
+        <a href="#"class="footer-menu-item">Developers</a>
+        <a href="#"class="footer-menu-item">Advertising</a>
+        <a href="#"class="footer-menu-item">Investors</a>
+        <a href="#"class="footer-menu-item">Vendors</a>
+      </div>  
+      <div class="column">
+        <div class="sub-title">USEFUL LINKS</div>
+        <a href="#"class="footer-menu-item">Support</a>
+        <a href="#"class="footer-menu-item">Web player</a>
+        <a href="#"class="footer-menu-item">From Mobile App</a>
+      </div>
+    </div><div class="second-box"><div class="icon-box">
+      <i class="fab fa-instagram icon" aria-hidden="true"></i></div><div class="icon-box">
+      <i class="fab fa-twitter icon" aria-hidden="true"></i></div><div class="icon-box">
+      <i class="fab fa-facebook-f icon" aria-hidden="true"></i></div></div>
+    </div>
+      <div class="first-line"><i class="fas fa-globe-africa " aria-hidden="true"></i>USA</div>
+      <div class="second-line"><div>
+          <a href="#"class="second-line-item">Legal</a>
+          <a href="#"class="second-line-item">Privacy Center</a>
+          <a href="#"class="second-line-item">Privacy Policy</a>
+          <a href="#"class="second-line-item">Cookies</a>
+          <a href="#"class="second-line-item">About Ads</a>
+          <a href="#"class="second-line-item">Additional CA Privacy Disclosures</a>
+    
+        </div>
+        <div class="second-line-item">  © 2021 Spotify AB</div>
+      
+</div>
+      </div>
+    </div>     
+  </div>  
+</div>
+</footer>
+</body>
+</html>

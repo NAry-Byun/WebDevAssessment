@@ -1,7 +1,7 @@
 body{
     margin: 0px;
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
-    color: white;
+    font-family: sans-serif;
+    color: black;
   }
   
   
@@ -11,12 +11,12 @@ body{
   
   }
   a:hover{
-    color: #1ed160;
+    color: bisque;
     
   } 
   
   nav{
-    height: 80px;
+      height: 80px;
       background-color: black;
       display: flex;
       align-items: center;
@@ -26,47 +26,53 @@ body{
   
   main{
     height: 969px;
-    background-color: rgb(41, 65, 171);
-    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
-    background-size: 175%;
-    background-position: 46% 4%;
+    background-color: black;
+    background-image: url(https://www.victorstravels.com/wp-content/uploads/2017/09/wilsons-promontory-national-park-1170x650.jpg);
+    background-size: cover;
+    background-position: 50% 70%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
   footer{
-    height: 530px;
-    background-color: black;
+    height: 80px;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
   }
   
   .nav-item{
     padding: 28px 17px;
-      font-weight: 700;
+    font-weight: 700;
   }
   
   .headline{
-    font-size: 146px;
-        line-height: 166px;
-        color: #1ed760;
-        font-weight: 900;
-        position: relative;
-        left: 225px;
-        padding-bottom: 40px;
+   font-size: 146px;
+   line-height: 166px;
+   color: whitesmoke;
+   font-weight: 600;
+   position: relative;
+   left: 225px;
+   padding-bottom: 40px;
+   text-shadow: 2px 2px 4px #000000;
   }
   
   
   .headlin-first{
     position: relative;
     left: -2.5em;
+    text-shadow: 2px 2px 4px #000000;
     
   }
   
   .sub-headlin{
-    color: #1ed760;
+    color: white;
     text-align: center;
     font-size: 18px;
     padding-bottom: 40px;
+    text-shadow: 2px 2px 4px #000000;
   }
   .button-area{
     text-align: center;
@@ -74,26 +80,20 @@ body{
   
   .button-style{
     padding: 14px 32px;
-    background-color: #1ed760;
+    background-color: black;
     border-radius: 500px;
     font-size: inherit;
-    color: #2941ab;
+    color: white;
     font-weight: 700;
     border: none;
   }
   .button-style:hover{
     transform: scale(1.07);
-    background-color: #2de26d;
+    background-color:rgba(112, 70, 60, 0.445)
   }
-  .footer-menu{
-      display: flex;
-      justify-content: space-between;
-      height: 346px;
-    }
+ 
   
   footer {
-    height: 530px;
-    background-color: black;
     display: flex;
     justify-content: center;
   }
@@ -111,12 +111,12 @@ body{
   .first-box {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
   }
   .second-box {
     width: 40%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
   }
   .footer-menu-item {
     padding-bottom: 15px;
@@ -158,11 +158,17 @@ body{
   .second-line{
     color: #919496;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
     margin-top: 12px;
   }
   .second-line-item {
-    margin-right: px;
+    margin-right: 20px;
     color: #919496;
   }
+
+  .search-form{
+    margin-right: 20px;
+  }
+
+
